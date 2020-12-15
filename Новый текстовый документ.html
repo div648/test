@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+
+let cook = Number(document.cookie)
+if (cook == 1) {
+alert("Вы уже тут были")
+} else {
+if(Number(prompt("Введите пароль: ")) == 8848) {
+    document.cookie = "1";    
+    alert("OK");
+} else {
+    alert("Пароль неверный");
+}
+}
+
+</script>    
+</body>
+</html>
+
